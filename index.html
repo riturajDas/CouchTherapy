@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="title.png">
+    <title>CouchTherapy</title>
+    <meta name="author" content="Rituraj Das">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+    <!--start navbar-->
+    <nav>
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo"><img src="logo3.png"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse" onclick="Materialize.showStaggeredList('#mobile-demo')"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="http://slayerone.esy.es">About</a></li>
+          <li><a href="mailto:rituraj.das8@gmail.com">Contact</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="http://slayerone.esy.es">About</a></li>
+          <li><a href="mailto:rituraj.das8@gmail.com">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--start slides-->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="http://image.tmdb.org/t/p/w650/vsjBeMPZtyB7yNsYY56XYxifaQZ.jpg">
+          <div class="caption left-align">
+            <h3>Only the Latest Movies</h3>
+            <h5 class="light grey-text text-lighten-3">Get all the latest movie info right here!</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://image.tmdb.org/t/p/w650/75GFqrnHMKqkcNZ2wWefWXfqtMV.jpg">
+          <div class="caption right-align">
+            <h3>See what others Think</h3>
+            <h5 class="light grey-text text-lighten-3">Movie popularity and ratings to you get excited!</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://image.tmdb.org/t/p/w650/8SqBiesvo1rh9P1hbJTmnVum6jv.jpg">
+          <div class="caption left-align">
+            <h3>See it Here. See it First</h3>
+            <h5 class="light grey-text text-lighten-3">Relase trailers and behind the scenes exclusives!</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://image.tmdb.org/t/p/w600/iWRKYHTFlsrxQtfQqFOQyceL83P.jpg">
+          <div class="caption center-align">
+            <h3>The Next Big Leap in Movie Hunting is Here.</h3>
+            <h5 class="light grey-text text-lighten-3">Trust Me. I've got you covered!</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--begin journey-->
+    <h1>Feast Your Eyes !</h1><hr style="width:10%"><br>
+
+    <div class="container">
+      <div class="row movies"></div>
+    </div><br>
+    <!--start footer-->
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Wanted !...or vice-versa</h5>
+            <p class="grey-text text-lighten-4">Join forces and help out in this awsome journey. Reach out via E-mails. Would love to hear fom You!</p>
+            <a href="mailto:rituraj.das8@gmail.com" class="btn red waves-effect waves-light hoverable" type="text" name="action">Call me maybe !<i class="material-icons right">recent_actors</i></a>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">More videos? Try these :</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#goesnowhere!">Link #1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#goesnowhere!">Link #2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#goesnowhere!">Link #3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#goesnowhere!">Link #4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright teal darken-3">
+        <div class="container">
+          Handmade product of <strong style="color:orange;">Rituraj Das</strong> ;)
+        </div>
+      </div>
+    </footer>
+    <!--scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
